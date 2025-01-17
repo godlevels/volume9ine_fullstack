@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
-import { IoClose } from "react-icons/io5";
+import Image from "./Image";
 
 const Newsletter = ({ onClose }) => {
   const [email, setEmail] = useState("");
@@ -70,7 +70,7 @@ const Newsletter = ({ onClose }) => {
           onClick={onClose}
           className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
         >
-          <IoClose size={24} />
+          <Image src="cancel.png" alt="volume9ine logo" w={24} h={24} />
         </button>
         <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-800 text-center">
           Subscribe to Our Newsletter
