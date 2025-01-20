@@ -23,7 +23,7 @@ const PostListItem = ({ post }) => {
           <span>Written by</span>
           <span>{post.user?.username || "Unknown Author"}</span>
           <span>on</span>
-          <Link className="text-green-400">{post.category}</Link>
+          <Link className="text-white text-sm font-medium rounded-lg bg-black px-4 py-1 capitalize">{post.category}</Link>
           <div className="text-sm text-gray-500 flex items-center gap-2">
             <span role="img" aria-label="calendar">
               📅

@@ -16,7 +16,7 @@ const Homepage = () => {
       setShowNewsletter(true);
     }, 3000);
 
-    return () => clearTimeout(timer); // Cleanup timeout on component unmount
+    return () => clearTimeout(timer);
   }, []);
 
   return (
